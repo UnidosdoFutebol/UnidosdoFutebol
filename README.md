@@ -1,16 +1,40 @@
-## BEM VINDOS 👋
-
-<!--
-**UnidosdoFutebol/UnidosdoFutebol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Time de Futsal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Time de Futsal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#elenco">Elenco</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Time</h2>
+            <p>Informações sobre a história e missão do time.</p>
+        </section>
+        <section id="elenco">
+            <h2>Elenco</h2>
+            <p>Detalhes sobre os jogadores.</p>
+        </section>
+        <section id="agenda">
+            <h2>Agenda de Jogos</h2>
+            <p>Próximos jogos e resultados.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Time de Futsal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
